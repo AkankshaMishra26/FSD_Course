@@ -1,0 +1,35 @@
+table {
+    width: 50%; /* adjust the width of the table */
+    margin: 2 auto; /* center the table */
+    border-collapse: collapse; /* remove extra spacing between cells */
+  }
+  
+  th, td {
+    padding: 10px; /* add some padding to the cells */
+    text-align: center; /* center the text in the cells */
+    border: 1px solid #ddd; /* add a border to the cells */
+  }
+  
+  tr:nth-child(1) { /* first row (header) */
+    background-color: #f0f0f0; /* light gray */
+  }
+  
+  tr:nth-child(2) { /* second row (CSK) */
+    background-color: green;
+  }
+  
+  tr:nth-child(3) { /* third row (SRH) */
+    background-color: blueviolet;
+  }
+  
+  tr:nth-child(4) { /* fourth row (KKR) */
+    background-color: yellowgreen;
+  }
+  
+  tr:nth-child(5) { /* fifth row (MI) */
+    background-color: lightblue; /* dodger blue */
+  }
+  
+  tr:nth-child(6) { /* sixth row (RCB) */
+    background-color: red; /* hot pink */
+  }
